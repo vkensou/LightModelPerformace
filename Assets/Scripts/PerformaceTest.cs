@@ -173,6 +173,7 @@ public class PerformaceTest : MonoBehaviour
             {
                 testing = false;
                 Destroy(mat);
+                mat = null;
             }
             if (GUI.Button(new Rect(300, 200, 100, 100), "Count X 2"))
             {
